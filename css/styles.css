@@ -795,3 +795,180 @@ footer .container {
     align-items: baseline;
 
 }
+
+
+
+
+
+.backdrop {
+
+    width: 100%;
+    height: 100%;
+    background-color:rgba(46, 47, 66, 0.4);
+    position: fixed; 
+    top: 0;
+
+
+}
+
+
+.model {
+    width: 408px;
+    min-height: 584px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background: #fcfcfc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model-close-btn {
+
+    position: absolute;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+
+    border-radius: 100%;
+    fill: #e7e9fc;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+
+    top: 24px;
+    right: 24px;
+}
+
+.backdrop-txt {
+
+    margin: 72px auto 0 auto;
+    margin-bottom: 16px;
+   
+    width: max-content;
+    text-align: center;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    
+        
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.model-imput {
+
+    border-color: 1px solid #4D5AE5;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    
+    
+
+}
+
+.model-imput:focus {
+    border-color: #4d5ae5;
+}
+/* .model-imput:focus + .model-icon {
+
+fill: #4d5ae5} */
+
+
+.model-imput:focus~.model-icon {
+    fill: #4d5ae5;
+
+}
+
+.medal-label {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+    
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+
+    display: inline-block;
+    margin-bottom: 4px;
+
+}
+
+.model-field {
+
+    margin-bottom: 8px;
+}
+
+.model-icon {
+    /* fill: ; */
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: #2e2f42;  
+  
+   
+}
+
+.model-imput-wrap {
+    position: relative;
+
+   
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+        /* Выравнивание по горизонтали */
+    align-items: center
+
+}
+
+.send-btn {
+
+
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.send-btn-txt {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    
+      
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+
+.medal-textarea {
+
+    border-color: 1px solid #4D5AE5;
+    border-radius: 4px;
+    width: 360px;
+    height: 120px;
+    padding: 8px 16px;
+    background-color: transparent;
+    
+    outline: transparent;
+
+}
