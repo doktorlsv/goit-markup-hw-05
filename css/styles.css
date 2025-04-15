@@ -812,6 +812,7 @@ footer .container {
 
 .footer-form {
     display: flex;
+    gap: 24px;
 
 }
 
@@ -826,7 +827,21 @@ footer .container {
     height: 40px;
     padding-left: 16px;
 
+    border: 1px solid #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 
+
+}
+
+.footer-input::placeholder {
+    color: #ffffff;
+}
+
+.footer-svg {
+    margin-left: 16px;
 }
 
 .footer-btn {
@@ -845,9 +860,16 @@ footer .container {
     height: 40px;
 
     background: var(--iris);
-    /* border: none; */
+    border: none;
     display: flex;
     align-items: center;
+
+    min-width: 165px;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+
+    background-color: #4D5AE5
 
     
     
@@ -871,6 +893,7 @@ footer .container {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -893,6 +916,7 @@ footer .container {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .model-close-btn {
@@ -902,7 +926,7 @@ footer .container {
     width: 24px;
     height: 24px;
 
-    border-radius: 100%;
+    border-radius: 50%;
     fill: #e7e9fc;
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.1);
