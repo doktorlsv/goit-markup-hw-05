@@ -458,21 +458,28 @@
                     <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                 </svg>
                 </div>
-<div class="model-field">
-    <label for="user-comment" class="medal-label">Comment</label>
-    <textarea name="user-text" id="user-text" class="medal-textarea" placeholder="Text input"></textarea>
-</div>
-                <button type="button" class="send-btn"><span class="send-btn-txt">Send</span></button>
-                </div>
 
 <div class="model-field">
-<input type="checkbox"
- name="policy" 
- id="policy" 
- class="model-check"
- value="true"
- >
- <label for="policy" class="model-check-text">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+    <label for="user-comment" class="medal-label">Comment</label>
+    <textarea name="user-comment" id="user-comment" class="medal-textarea" placeholder="Text input"></textarea>
+</div>
+
+<div class="model-field">
+    <input type="checkbox" name="user-privacy" id="user-privacy" class="model-check visually-hidden" value="true" />
+    <label for="user-privacy" class="model-check-text">
+        <span class="check-custom">
+            <svg class="check-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+            </svg>
+        </span>
+        I accept the terms and conditions of the
+        <a href="" class="policy-link">Privacy Policy</a>
+    </label>
+</div>
+
+<button type="button" class="send-btn">
+    <span class="send-btn-txt">Send</span>
+</button>
 
 </div>
 
