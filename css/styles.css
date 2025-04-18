@@ -854,6 +854,7 @@ footer .container {
 
 .footer-svg {
     margin-left: 16px;
+    color: ;#FFFFFF
 }
 
 .footer-btn {
@@ -972,7 +973,6 @@ footer .container {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .model-close-btn:hover,
 .model-close-btn:focus {
     background-color: #404bbf;
@@ -982,11 +982,10 @@ footer .container {
 
 .backdrop-txt {
 
-    margin: 72px auto 0 auto;
+    
     margin-bottom: 16px;
    
-    width: max-content;
-    text-align: center;
+    
 
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -1064,6 +1063,19 @@ footer .container {
     transform: translateY(-50%);
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+}
+
+.model-icon-close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Центрируем иконку по горизонтали и вертикали */
+    /* width: 8px;
+    height: 8px; */
+    fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -1121,6 +1133,11 @@ footer .container {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+}
+
+.send-btn:hover .send-btn-txt,
+.send-btn:focus .send-btn-txt {
+    color: #ffffff;
 }
 
 .medal-textarea {
