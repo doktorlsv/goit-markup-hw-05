@@ -1271,7 +1271,6 @@ footer .container {
 margin-bottom: 24px;
 }
     
-.model-field Comment {
-
+.model-field.comment {
     margin-bottom: 16px;
 }
