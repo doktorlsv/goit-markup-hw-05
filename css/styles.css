@@ -1138,14 +1138,19 @@ footer .container {
     color: #fff;
 }
 
-.send-btn:hover,
+/* .send-btn:hover,
 .send-btn:focus {
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-   
-    transform: scale(1.05);
-   
-    outline: none;
+    background-color: #404bbf;
+    background-color: #404bbf;
 
+} */
+.send-btn:focus {
+    background-color: #404bbf;
+}
+
+.send-btn:hover {
+    background-color: #404bbf;
+    
 }
 
 .medal-textarea {
