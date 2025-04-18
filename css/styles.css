@@ -1077,10 +1077,10 @@ footer .container {
 }
 
 
-.model-close-btn:hover .model-icon,
+/* .model-close-btn:hover .model-icon,
 .model-close-btn:focus .model-icon {
     fill: #ffffff;
-}
+} */
 
 
 .model-close-btn:hover .model-icon-close,
@@ -1140,7 +1140,7 @@ footer .container {
 
 .send-btn:hover .send-btn-txt,
 .send-btn:focus .send-btn-txt {
-    color: #ffffff;
+    fill: #ffffff;
 }
 
 .medal-textarea {
