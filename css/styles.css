@@ -1058,7 +1058,7 @@ footer .container {
 }
 
 .model-field {
- /* margin-bottom: 16px; */
+ margin-bottom: 16px;
    
     
 }
@@ -1233,16 +1233,13 @@ footer .container {
 }
 
 .policy-link {
-    color: var(--iris, #4d5ae5);
+    color: #4d5ae5;
     text-decoration: none;
-   
 }
 
 .policy-link:hover {
     text-decoration: underline;
-    
 }
-
 
 .model-check-text .check-custom {
     display: inline-flex;
