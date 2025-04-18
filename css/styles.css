@@ -975,7 +975,7 @@ footer .container {
 
 .model-close-btn:hover,
 .model-close-btn:focus {
-    background-color: #404bbf;
+    fill: #ffffff;
     border: none;
     
 }
@@ -1138,9 +1138,14 @@ footer .container {
     color: #fff;
 }
 
-.send-btn:hover .send-btn-txt,
-.send-btn:focus .send-btn-txt {
-    fill: #ffffff;
+.send-btn:hover,
+.send-btn:focus {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+   
+    transform: scale(1.05);
+   
+    outline: none;
+
 }
 
 .medal-textarea {
