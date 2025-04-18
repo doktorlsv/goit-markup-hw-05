@@ -854,7 +854,8 @@ footer .container {
 
 .footer-svg {
     margin-left: 16px;
-    color: ;#FFFFFF
+    fill: #FFFFFF;
+    transition: fill 250ms ease;
 }
 
 .footer-btn {
@@ -888,6 +889,12 @@ footer .container {
     
 
 
+}
+
+
+.footer-btn:hover,
+.footer-btn:focus {
+    background-color: #404bbf;
 }
 
 
@@ -1051,8 +1058,8 @@ footer .container {
 }
 
 .model-field {
- margin-bottom: 16px;
-    /* margin-bottom: 24px; */
+ /* margin-bottom: 16px; */
+   
     
 }
 
@@ -1188,8 +1195,9 @@ footer .container {
     /* display: flex; */
     align-items: center;
     gap: 8px;
+}
 
-    a { 
+.model-check-text  a { 
         
     line-height: 133%;
     text-decoration: underline;
@@ -1200,7 +1208,7 @@ footer .container {
     }
 
     
-}
+
 
 
 .check-custom {
