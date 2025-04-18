@@ -1077,16 +1077,28 @@ footer .container {
 }
 
 
-/* .model-close-btn:hover .model-icon,
-.model-close-btn:focus .model-icon {
+
+
+/* .model-close-btn:hover .model-icon-close,
+.model-close-btn:focus .model-icon-close {
     fill: #ffffff;
+    background-color: #404bbf;
 } */
 
+
+
+.model-close-btn:hover,
+.model-close-btn:focus {
+    background-color: #404bbf;
+   
+}
 
 .model-close-btn:hover .model-icon-close,
 .model-close-btn:focus .model-icon-close {
     fill: #ffffff;
+   
 }
+
 
 .model-imput-wrap {
    
@@ -1141,17 +1153,10 @@ footer .container {
 .send-btn:hover,
 .send-btn:focus {
     background-color: #404bbf;
-    background-color: #404bbf;
+   
 
 }
-/* .send-btn:focus {
-    background-color: #404bbf;
-}
 
-.send-btn:hover {
-    background-color: #404bbf;
-     */
-}
 
 .medal-textarea {
 
