@@ -1182,7 +1182,7 @@ footer .container {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .medal-textarea:focus {
@@ -1272,5 +1272,5 @@ margin-bottom: 24px;
 }
     
 .model-field.comment {
-    /* margin-bottom: 16px; */
+    margin-bottom: 16px;
 }
